@@ -1,5 +1,6 @@
 body {
-  background-color: gray;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
 
 .brand-name {
@@ -13,4 +14,43 @@ body {
 }
 img {
   width: 100%;
+}
+.top-banner {
+  background-image: url("Images/top-banner.png");
+  background-repeat: no-repeat;
+}
+section {
+  height: 500px;
+  margin-bottom: 100px;
+}
+.btn {
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 10px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+.dream-area {
+  background-image: url("Images/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.experiences {
+  weight: 900;
+  width: 100%;
+  background-image: url("Images/exp-bg.png");
+  background-repeat: no-repeat;
+}
+.box-model {
+  border: 1px solid gray;
+  height: 80%;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3px;
+  border-left-color: rgb(201, 76, 76, 0.5);
+  background-color: white;
+}
+footer {
+  text-align: center;
 }
